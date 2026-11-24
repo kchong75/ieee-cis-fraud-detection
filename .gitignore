@@ -2,6 +2,7 @@
 data/
 *.parquet
 *.csv
+!results/*.csv
 *.zip
 
 # External code cloned for reference (see SOURCES.md)
