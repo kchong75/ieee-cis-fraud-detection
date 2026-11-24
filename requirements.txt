@@ -1,0 +1,6 @@
+jupyterlab
+matplotlib
+networkx
+numpy
+polars
+scikit-learn
