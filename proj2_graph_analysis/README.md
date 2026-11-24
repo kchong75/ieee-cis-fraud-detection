@@ -28,7 +28,8 @@ results/    metrics and short notes per experiment
 
 ## Running it
 
-1. Download the competition data from Kaggle and unzip it into `./data/`.
+1. Download the competition data from Kaggle and unzip it into `data/` inside this folder (`proj2_graph_analysis/data/`).
+   Run all commands below from this folder.
    **The data is not in this repo**: the competition rules don't allow redistributing it.
 2. Build the Parquet cache: `python -m src.data`
 3. Train the baseline: `python -m src.train_baseline`, or open the notebooks.
@@ -49,4 +50,4 @@ See [SOURCES.md](SOURCES.md) for exactly which files use which source.
 
 ## License
 
-[Apache License 2.0](LICENSE). Adapted files keep their original attribution.
+[Apache License 2.0](../LICENSE). Adapted files keep their original attribution.

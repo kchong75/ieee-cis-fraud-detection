@@ -10,7 +10,7 @@ External code and ideas used in this project. Files adapted from a source start 
 
 ## Licensing of this repo
 
-- This repository is released under the [Apache License 2.0](LICENSE), the same license as the
+- This repository is released under the [Apache License 2.0](../LICENSE), the same license as the
   Deotte notebook it adapts.
 - Adapted files keep the `# Adapted from:` header and say that they were modified.
 - Ideas (not code) taken from competition write-ups are credited in the README.
