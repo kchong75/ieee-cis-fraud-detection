@@ -24,4 +24,4 @@ The feature increased fraud capture in the first window. The second window lost 
 
 1. Download the data from the [IEEE-CIS Fraud Detection competition on Kaggle](https://www.kaggle.com/c/ieee-fraud-detection/data).
 2. Install the Python dependencies with `pip install -r requirements.txt`.
-3. Open `fraud_graph_analysis.ipynb` in Jupyter, set the input path in the data-loading cell to your local copy of the dataset, and run the cells in order.
+3. Open `card_pair_graph_features.ipynb` in Jupyter. Point `csv_path` (first code cell) and `DATA_DIR` (Section 2) at your local copy of the dataset, then run the cells in order.
