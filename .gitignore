@@ -1,0 +1,19 @@
+# Data and caches (raw data is read-only and large; never commit it)
+data/
+*.parquet
+*.csv
+*.zip
+
+# External code cloned for reference (see SOURCES.md)
+third_party/
+
+# Python / Jupyter / OS clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Secrets
+kaggle.json
+.env
+.claude/settings.local.json
