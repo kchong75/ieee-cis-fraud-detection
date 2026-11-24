@@ -18,3 +18,14 @@ __pycache__/
 kaggle.json
 .env
 .claude/settings.local.json
+
+# Private working notes: never commit or push (see WORKLOG.md "How we work")
+CLAUDE.md
+plan.md
+WORKLOG.md
+
+# Personal notes, kept local only
+CLAUDE.md
+plan.md
+WORKLOG.md
+worklog.md

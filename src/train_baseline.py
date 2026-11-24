@@ -1,4 +1,6 @@
 # Adapted from: https://www.kaggle.com/cdeotte/xgb-fraud-with-magic-0-9600 (Chris Deotte)
+# Original notebook released under the Apache License 2.0. Modified by kchong75 (2026):
+# restructured into reusable modules, run on a time-based validation split.
 """Step 1: train Deotte's XGB95 (no magic) and XGB96 (magic UID features) on two splits.
 
 Splits:

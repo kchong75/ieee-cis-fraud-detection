@@ -1,4 +1,6 @@
 # Adapted from: https://www.kaggle.com/cdeotte/xgb-fraud-with-magic-0-9600 (Chris Deotte)
+# Original notebook released under the Apache License 2.0. Modified by kchong75 (2026):
+# restructured into reusable modules, run on a time-based validation split.
 """Feature engineering of Chris Deotte's "XGB Fraud with Magic" notebook (1st place team).
 
 Re-implemented on one combined train+test frame instead of two frames mutated in parallel.
