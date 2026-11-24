@@ -1,0 +1,32 @@
+# Data and caches (raw data is read-only and large; never commit it)
+data/
+*.parquet
+*.csv
+!results/*.csv
+*.zip
+
+# External code cloned for reference (see SOURCES.md)
+third_party/
+
+# Python / Jupyter / OS clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Secrets
+kaggle.json
+.env
+.claude/settings.local.json
+
+# Private working notes: never commit or push (see WORKLOG.md "How we work")
+CLAUDE.md
+plan.md
+WORKLOG.md
+
+# Personal notes, kept local only
+CLAUDE.md
+plan.md
+WORKLOG.md
+worklog.md
+claude_log

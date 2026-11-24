@@ -1,0 +1,88 @@
+
+== XGB95 on split 'deotte': 216 features, train 442,905 rows, val 147,635 rows
+[0]	validation_0-auc:0.82104
+[100]	validation_0-auc:0.91541
+[200]	validation_0-auc:0.92860
+[300]	validation_0-auc:0.93396
+[400]	validation_0-auc:0.93589
+[500]	validation_0-auc:0.93608
+[600]	validation_0-auc:0.93590
+[650]	validation_0-auc:0.93574
+   val AUC = 0.9362  (best iteration 550, 2.7 min)
+
+== XGB96 on split 'deotte': 263 features, train 442,905 rows, val 147,635 rows
+[0]	validation_0-auc:0.83827
+[100]	validation_0-auc:0.93403
+[200]	validation_0-auc:0.94441
+[300]	validation_0-auc:0.94727
+[400]	validation_0-auc:0.94789
+[500]	validation_0-auc:0.94805
+[587]	validation_0-auc:0.94801
+   val AUC = 0.9482  (best iteration 487, 3.8 min)
+
+== XGB95 on split 'ours': 216 features, train 490,555 rows, val 78,542 rows
+[0]	validation_0-auc:0.82512
+[100]	validation_0-auc:0.91734
+[200]	validation_0-auc:0.93129
+[300]	validation_0-auc:0.93583
+[400]	validation_0-auc:0.93716
+[500]	validation_0-auc:0.93728
+[600]	validation_0-auc:0.93722
+[623]	validation_0-auc:0.93706
+   val AUC = 0.9375  (best iteration 523, 2.1 min)
+
+== XGB96 on split 'ours': 263 features, train 490,555 rows, val 78,542 rows
+[0]	validation_0-auc:0.84331
+[100]	validation_0-auc:0.93421
+[200]	validation_0-auc:0.94428
+[300]	validation_0-auc:0.94747
+[400]	validation_0-auc:0.94830
+[500]	validation_0-auc:0.94831
+[568]	validation_0-auc:0.94813
+   val AUC = 0.9485  (best iteration 468, 2.9 min)
+[
+  {
+    "model": "XGB95",
+    "split": "deotte",
+    "n_features": 216,
+    "train_rows": 442905,
+    "val_rows": 147635,
+    "val_auc": 0.93617,
+    "best_iteration": 550,
+    "train_minutes": 2.7,
+    "xgboost": "3.4.2"
+  },
+  {
+    "model": "XGB96",
+    "split": "deotte",
+    "n_features": 263,
+    "train_rows": 442905,
+    "val_rows": 147635,
+    "val_auc": 0.94824,
+    "best_iteration": 487,
+    "train_minutes": 3.8,
+    "xgboost": "3.4.2"
+  },
+  {
+    "model": "XGB95",
+    "split": "ours",
+    "n_features": 216,
+    "train_rows": 490555,
+    "val_rows": 78542,
+    "val_auc": 0.93754,
+    "best_iteration": 523,
+    "train_minutes": 2.1,
+    "xgboost": "3.4.2"
+  },
+  {
+    "model": "XGB96",
+    "split": "ours",
+    "n_features": 263,
+    "train_rows": 490555,
+    "val_rows": 78542,
+    "val_auc": 0.94847,
+    "best_iteration": 468,
+    "train_minutes": 2.9,
+    "xgboost": "3.4.2"
+  }
+]

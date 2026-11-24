@@ -1,0 +1,46 @@
+[
+  {
+    "model": "XGB95",
+    "split": "deotte",
+    "n_features": 216,
+    "train_rows": 442905,
+    "val_rows": 147635,
+    "val_auc": 0.93617,
+    "best_iteration": 550,
+    "train_minutes": 2.7,
+    "xgboost": "3.4.2"
+  },
+  {
+    "model": "XGB96",
+    "split": "deotte",
+    "n_features": 263,
+    "train_rows": 442905,
+    "val_rows": 147635,
+    "val_auc": 0.94824,
+    "best_iteration": 487,
+    "train_minutes": 3.8,
+    "xgboost": "3.4.2"
+  },
+  {
+    "model": "XGB95",
+    "split": "ours",
+    "n_features": 216,
+    "train_rows": 490555,
+    "val_rows": 78542,
+    "val_auc": 0.93754,
+    "best_iteration": 523,
+    "train_minutes": 2.1,
+    "xgboost": "3.4.2"
+  },
+  {
+    "model": "XGB96",
+    "split": "ours",
+    "n_features": 263,
+    "train_rows": 490555,
+    "val_rows": 78542,
+    "val_auc": 0.94847,
+    "best_iteration": 468,
+    "train_minutes": 2.9,
+    "xgboost": "3.4.2"
+  }
+]
